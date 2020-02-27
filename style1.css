@@ -160,6 +160,13 @@ aside .fas{
     justify-content: space-around;
     margin-bottom: 40px;
     margin-top: 1rem;
+    margin:10px;
+    width:100px;
+    background:#FF0000;
+    height:100px;
+    text-align:center;
+    border-radius:100px;
+    
 }
 aside div:first-child{
     flex:2;
