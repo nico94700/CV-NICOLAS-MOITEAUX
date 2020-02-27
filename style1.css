@@ -144,7 +144,7 @@ aside img{
    
 }
 aside h3{
-    background-color:black;
+    background-color:#454444;
     padding : 10px;
     text-align: center;
 }
@@ -152,7 +152,7 @@ aside p, a {
     padding: 0 40px 0 40px; 
 }
 aside .fas{
-    color:#424242;
+    color:#454444;
     font-size:3em;
 }
 .aside_loisir_icons{
