@@ -282,11 +282,9 @@ p
     }
     address{
         flex-direction: column;
-    }
-    header img{
-       max-width: 100%;
-	    height: auto;
-    }
+	}
+    
+    
 
     
 
