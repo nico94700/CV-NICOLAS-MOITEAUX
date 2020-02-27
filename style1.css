@@ -48,13 +48,13 @@ h3{
     text-transform: uppercase;
     border-bottom:2px solid #FFCA28;
     padding-bottom:15px;
-    font-weight: 500;
+    font-weight: 400;
 }
 h4{
     font-size:1.3em;
     text-transform: uppercase;
     margin-bottom:0;
-    font-weight: 500;
+    font-weight: 400;
 }
 /*Couleur du prénom et mise en place du trait sous les compétences*/
 h1 span{
@@ -144,9 +144,9 @@ aside img{
    
 }
 aside h3{
-    background-color:#424242;
+    background-color:black;
     padding : 10px;
-    text-align: center;;
+    text-align: center;
 }
 aside p, a {
     padding: 0 40px 0 40px; 
