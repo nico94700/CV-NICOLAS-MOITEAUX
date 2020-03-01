@@ -254,8 +254,7 @@ p
     }
     header img{
     border-radius: 300px;
-    display: flex;
-    max-width: 300px; 
+    display: flex; 
     }   
 
     aside{
