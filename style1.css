@@ -264,7 +264,7 @@ p
         margin-top: 0;
     }
     aside img{
-   display: none;
+   display: flex;
    max-width: 150px;
      
       
