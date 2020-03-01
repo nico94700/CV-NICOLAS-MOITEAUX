@@ -256,14 +256,7 @@ p
         display:flex;
         margin:auto;
     }
-    header img{
-    display: block;
-    width: 100px;
-    border: 2px solid #e3ad07;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;  
-    }
+    
     aside{
         padding-top: 0;
     }
