@@ -296,7 +296,12 @@ p
         flex-direction: column;
     }
     header img{
-    max-width: 150px; 
+    display: block;
+    width: 200px;
+    border: 2px solid #e3ad07;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;  
    }
     
 }
