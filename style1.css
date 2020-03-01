@@ -251,9 +251,12 @@ p
         margin:auto;
     }
     header img{
-        border-radius: 150px;
-        display: flex;
-        margin: auto;
+    display: block;
+    width: 200px;
+    border: 2px solid #e3ad07;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;  
     }
     aside{
         padding-top: 0;
@@ -293,6 +296,10 @@ p
         flex-direction: column;
     }
     header img{
-    max-width: 150px; 
-    }
+    display: block;
+    width: 200px;
+    border: 2px solid #e3ad07;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;  
 }
