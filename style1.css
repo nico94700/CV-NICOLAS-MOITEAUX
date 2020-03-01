@@ -255,6 +255,7 @@ p
     header img{
     border-radius: 300px;
     display: flex; 
+    margin: auto;
     }   
 
     aside{
@@ -265,8 +266,7 @@ p
     }
     aside img{
    display: none;
-   
-     
+    
       
     }
 }
