@@ -291,6 +291,6 @@ p
         flex-direction: column;
     }
     header img{
-    display: none;
+    display: block;
     
 }
