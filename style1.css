@@ -253,8 +253,12 @@ p
         margin:auto;
     }
     header img{
-        display: flex;
-        margin:auto;
+    display: flex;
+    width: 200px;
+    border: 2px solid #e3ad07;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;  
     }   
 
     aside{
