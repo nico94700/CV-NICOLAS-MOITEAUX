@@ -265,6 +265,7 @@ p
     }
     aside img{
    display: none;
+   max-width: 150px;
      
       
     }
