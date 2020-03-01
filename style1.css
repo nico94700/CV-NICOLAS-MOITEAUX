@@ -295,7 +295,7 @@ p
         flex-direction: column;
     }
     header img{
-    display: block;
+    display: none;
     width: 100px;
     border: 2px solid #e3ad07;
     border-radius: 50%;
