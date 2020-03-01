@@ -220,7 +220,13 @@ p
 /* Masquer la photo du header sur écran > que les tablettes */
 @media screen and (min-width: 900px) {
     header img{
-        display:none;
+    display: block;
+    width: 100px;
+    border: 2px solid #e3ad07;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;  
+}
     }
 }
 
