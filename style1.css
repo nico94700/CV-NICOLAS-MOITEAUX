@@ -227,7 +227,7 @@ p
 }
 
 /* Tablettes */
-@media screen and (device-width: 991px) {
+@media screen and (max-width: 991px) {
     .container{
         flex-direction: column;
     }
@@ -305,4 +305,5 @@ p
     
    }
     
+
 }
