@@ -227,7 +227,7 @@ p
 }
 
 /* Tablettes */
-@media screen and (max-width: 991px) {
+@media screen and (device-width: 991px) {
     .container{
         flex-direction: column;
     }
@@ -272,7 +272,7 @@ p
 }
 
 /* Téléphone */
-@media screen and (max-width: 425px) {
+@media screen and (device-width: 425px) {
     .part_right {
         display: flex;
         flex-direction: column;
@@ -305,15 +305,4 @@ p
     
    }
     
-}
-@media screen and (orientation: landscape) {
-     header img{
-        position: fixed;
-        width: 200px;
-        border: 2px solid #e3ad07;
-        border-radius: 50%;
-        margin-left: auto;
-        margin-right: auto;  
-
-    }
 }
