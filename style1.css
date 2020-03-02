@@ -281,6 +281,8 @@ p
         margin-bottom: 15px;
         border-radius:7px;
     }
+
+    }
     header {
         margin-bottom: 50px;
     }
@@ -303,4 +305,15 @@ p
     
    }
     
+}
+@media screen and (orientation: landscape) {
+    #header img{
+        position: fixed;
+        width: 200px;
+        border: 2px solid #e3ad07;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;  
+
+    }
 }
