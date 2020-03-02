@@ -307,7 +307,7 @@ p
     
 }
 @media screen and (orientation: landscape) {
-    #header img{
+     header img{
         position: fixed;
         width: 200px;
         border: 2px solid #e3ad07;
