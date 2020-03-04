@@ -114,6 +114,7 @@ article ul{
 }
 article ul li:nth-child(4){
     font-weight: 200;
+    text-transform: uppercase;
 }
 article ul:nth-child(2){
     margin-right:100px;
@@ -268,11 +269,7 @@ p
 @media screen and (max-width: 425px) {
     .part_right {
         display: flex;
-        flex-direction: column;
-        box-shadow: 0px 0px 10px 0px color:#424242;
-        padding: 10px;
-        margin-bottom: 15px;
-        border-radius:7px;
+        justify-content: space-between;
     }
     header {
         margin-bottom: 50px;
@@ -282,6 +279,7 @@ p
     }  
     .text_recommandations div {
         flex-direction: column;
+        justify-content: space-between;
         box-shadow: 0px 0px 10px 0px color:#FFCA28;
         padding: 10px;
         margin-bottom: 15px;
