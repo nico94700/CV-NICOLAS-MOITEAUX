@@ -252,7 +252,7 @@ p
         margin:auto;
     }
     header img{
-        display: block;
+        display: flex;
         max-width: 50%;
 	    height: 50%;
         border: 2px color:#424242;
@@ -268,7 +268,7 @@ p
         margin-top: 20px;
     }
     aside img{
-        display: block;
+        display: flex;
     }
 }
 
