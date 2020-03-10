@@ -265,7 +265,7 @@ p
         padding-top: 0;
     }
     aside h3:first-child{
-        margin-top: 0;
+        margin-top: 20px;
     }
     aside img{
         display: none;
@@ -279,6 +279,7 @@ p
         justify-content: space-between;
     }
     header {
+        display: none;
         margin-bottom: 50px;
     }
     h1 {
