@@ -137,7 +137,7 @@ aside{
 aside img{
 
     display: block;
-    width: 40%;
+    width: 200px;
     border: 2px color:#424242;
     border-radius: 50%;
     margin-left: auto;
@@ -220,14 +220,9 @@ p
 
 /* Masquer la photo du header sur écran > que les tablettes */
 @media screen and (min-width: 900px) {
-    aside img{
-
-    display: block;
-    width: 200px;
-    border: 2px color:#424242;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;  
+    header img{
+        display:none;
+    }
 }
 
 /* Tablettes */
@@ -273,7 +268,7 @@ p
         margin-top: 0;
     }
     aside img{
-        display: flex;
+        display: none;
     }
 }
 
