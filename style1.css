@@ -252,7 +252,7 @@ p
         margin:auto;
     }
     header img{
-        display: flex;
+        display: none;
         max-width: 50%;
 	    height: 50%;
         border: 2px color:#424242;
