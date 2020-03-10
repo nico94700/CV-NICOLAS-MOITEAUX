@@ -228,7 +228,7 @@ p
 /* Tablettes */
 @media screen and (max-width: 991px) {
     .container{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     h1{
         font-size:3.4em;
