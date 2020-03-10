@@ -212,8 +212,7 @@ p
         flex:1;
     }
     article {
-        box-shadow: 0px 0px 10px 0px; 
-        color:#424242;
+        box-shadow: 0px 0px 10px 0px; color:#424242;
         margin-right: 30px;
         border-radius:7px;
         padding: 30px;
@@ -257,8 +256,7 @@ p
         display: none;
         max-width: 50%;
 	    height: 50%;
-        border: 2px;
-        color:#424242;
+        border: 2px; color:#424242;
         border-radius: 50%;
         margin-left: auto;
         margin-right: auto;
@@ -291,8 +289,7 @@ p
     .text_recommandations div {
         flex-direction: column;
         justify-content: space-between;
-        box-shadow: 0px 0px 10px 0px; 
-        color:#FFCA28;
+        box-shadow: 0px 0px 10px 0px; color:#FFCA28;
         padding: 10px;
         margin-bottom: 15px;
         border-radius:7px;
@@ -304,8 +301,7 @@ header img{
     max-width: 50px;
     height: 50px;
     display: none;
-    border: 2px;
-    color:#424242;
+    border: 2px; color:#424242;
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;     
