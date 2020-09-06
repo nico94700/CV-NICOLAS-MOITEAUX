@@ -28,7 +28,7 @@ footer{
     padding: 20px 0 20px 0;
 }
 .far, .fas{
-    color:#FFCA28;
+    color:#28dfff;
 }
 
 /*Titres*/
@@ -47,7 +47,6 @@ h2{
 h3{
     font-size:1.8em;
     text-transform: uppercase;
-    border-bottom:2px solid #FFCA28;
     padding-bottom:15px;
     font-weight: 500;
 }
@@ -59,11 +58,13 @@ h4{
 }
 /*Couleur du prénom et mise en place du trait sous les compétences*/
 h1 span{
-    color: #FFCA28;
-    font-weight:400;
+   font-size: 60px;
+   background: -webkit-linear-gradient(90deg, rgba(23,232,219,1) 0%, rgba(6,191,234,1) 39%, rgba(0,125,255,1) 96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 header hr{
-    border: 1px solid #FFCA28;
+    border: 1px solid #28dfff;
     width: 10%;
     margin: 0px;
 }
@@ -113,15 +114,10 @@ article ul{
     font-weight: 400;
     margin-right:30px;
 }
-article ul li:nth-child(4){
-    font-weight: 200;
-    text-transform: uppercase;
-}
-article ul:nth-child(2){
-    margin-right:100px;
-}
+
 .text_recommandations li{
     margin-bottom:5px;
+    text-transform: uppercase;
 }
 
 /*3.PARTIE GAUCHE (ASIDE)
@@ -129,11 +125,24 @@ article ul:nth-child(2){
 aside{
     display: flex;
     flex-direction: column;
-    background-color:#FFCA28;
+    background: rgb(23,232,219);
+    background: linear-gradient(90deg, rgba(23,232,219,1) 0%, rgba(6,191,234,1) 39%, rgba(0,125,255,1) 96%);
     flex: 1;
     padding-top:50px;
-    color:#FFCA28; 
+    color:#28dfff; 
     text-align: justify; 
+}
+
+.aside_langue{
+    display: flex;
+    flex-direction: column;
+    background: rgb(23,232,219);
+    background: linear-gradient(90deg, rgba(23,232,219,1) 0%, rgba(6,191,234,1) 39%, rgba(0,125,255,1) 96%);
+    flex: 1;
+    padding-top:50px;
+    color:#28dfff; 
+    text-align: justify;
+
 }
 aside img{
 
@@ -162,7 +171,6 @@ aside .fas{
     width: 60px;
     height: 50px;
     padding: 8px;
-    background-color: #ffca28;
     border: 1px solid #454444;
     border-radius: 50%;
 }
@@ -176,7 +184,7 @@ aside div:first-child{
     flex:2;
 }
 article ul li:first-child{
-    margin-bottom:13px;
+    margin-bottom:5px;
     text-transform: uppercase;
 }
 address{
@@ -188,6 +196,11 @@ address a{
     color:black;
     padding-left:0px;
 }
+a:hover {
+    
+    color: #28dfff;
+    }
+
 address p{
     margin-top:25px;
 }
@@ -195,6 +208,188 @@ address p{
 p
 {
     color: black;
+}
+
+#SkillBox {
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+    width: 93%;
+    height: 127vh;
+    margin: 35px auto;
+
+    padding: 20px;
+
+    -webkit-border-radius:20px;
+    -ms-border-radius:20px;
+    -moz-border-radius:20px;  
+}
+
+.SkillBar {
+    width: 71%;
+    height: 57px;
+    position: relative;
+    background: rgba(17, 17, 17, .3);
+    margin: 55px auto;
+}
+#Skill-HTML {
+    width: 90%;
+    animation: Animate-HTML 4s;
+    -webkit-animation: Animate-HTML 4s;
+    -moz-animation: Animate-HTML 4s;
+    -o-animation: Animate-HTML 4s;
+    height: 57px;
+    position: absolute;
+    background-color: #ea8564;
+}
+@keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-webkit-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-moz-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-o-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}#Skill-CSS {
+    animation: Animate-CSS 4s;
+    -webkit-animation: Animate-CSS 4s;
+    -moz-animation: Animate-CSS 4s;
+    -o-animation: Animate-CSS 4s;
+    width: 90%;
+    height: 57px;
+    position: absolute;
+    background-color: #55a69f;
+}
+@keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-webkit-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-moz-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-o-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}#Skill-JS {
+    animation: Animate-JS 4s;
+    -webkit-animation: Animate-JS 4s;
+    -moz-animation: Animate-JS 4s;
+    -o-animation: Animate-JS 4s;
+    width: 70%;
+    height: 57px;
+    position: absolute;
+    background-color: #c44e45;
+}
+@keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-webkit-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-moz-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-o-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}
+
+#Skill-SQL {
+    animation: Animate-SQL 4s;
+    -webkit-animation: Animate-SQL 4s;
+    -moz-animation: Animate-SQL 4s;
+    -o-animation: Animate-SQL 4s;
+    width: 75%;
+    height: 57px;
+    position: absolute;
+    background-color: #23b1db;
+}
+@keyframes Animate-SQL {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-webkit-keyframes Animate-SQL {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-moz-keyframes Animate-SQL {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-o-keyframes Animate-SQL {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}.Skill-Area {
+    z-index: 1;
+    float: left;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 13px;
+    text-shadow: none;
+    color: #fff;
+    font-family: Lato-Regular, sans-serif;
+    font-size: 18px;
+}
+.PercentText {
+    z-index: 3;
+    position: relative;
+    padding-right: 15px;
+    margin-top: 15px;
+    float: right;
+    text-shadow: none;
+    color: #fff;
+    font-family: Lato-Regular, sans-serif;
+    font-size: 18px;
 }
 
 /*4.RESPONSIVE DESIGN
